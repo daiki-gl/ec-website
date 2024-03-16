@@ -1,12 +1,7 @@
-import axios from 'axios'
 import { config } from '../../config'
 import ItemList from './ItemList'
 
 const NewItemList = async() => {
-  // const { data: productsData } = await axios(`${config.MAIN_URL}/api/getProducts`, { method: 'GET' })
-    // const resPro = await fetch(`${config.MAIN_URL}/api/getProducts`)
-    // const productsData = await resPro.json()
-
     const productsData = await fetch(`${config.MAIN_URL}/api/getProducts`)
     .then((res) => {
         return res.json();
