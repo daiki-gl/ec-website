@@ -1,13 +1,8 @@
-import { config } from '../../config'
+import { getProducts } from '../../lib/getProducts'
 import ItemList from './ItemList'
 
 const NewItemList = async() => {
-    const productsData = await fetch(`${config.MAIN_URL}/api/getProducts`)
-    .then((res) => {
-        return res.json();
-  }).catch(err => {
-    console.log('Error occurred here --->>',err)
-  })
+  const productsData = await getProducts()
 
   return (
     <div className='max-w-[1150px] mx-auto px-4'>
