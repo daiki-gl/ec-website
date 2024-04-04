@@ -1,37 +1,29 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div id="top"></div>
 
-## Getting Started
+# Party Palooza(Ecommerce Web Site)
 
-First, run the development server:
+## Link: <a style="font-size:16px" href="https://ec-website-vercel.vercel.app/">https://ec-website-vercel.vercel.app/</a>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Tech stuck
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<p style="display: inline">
+  <img src="https://img.shields.io/badge/-Next.js-000000.svg?logo=next.js&style=for-the-badge">
+  <img src="https://img.shields.io/badge/-Typescript-000000.svg?logo=typescript&style=for-the-badge">
+  <img src="https://img.shields.io/badge/-TailwindCSS-000000.svg?logo=tailwindcss&style=for-the-badge">
+  <span style="background-color: black; display: inline-flex; vertical-align: top; padding: 4px 8px; font-size: 12px; font-weight: bold;">Zustand</span>
+  <span style="background-color: black; display: inline-flex; vertical-align: top; padding: 4px 8px; font-size: 12px; font-weight: bold;">Stripe</span>
+</p>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Overview
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+<img src="https://github-production-user-asset-6210df.s3.amazonaws.com/70357792/319644195-467eb741-2c58-4bde-b8ad-5f87cef8e39c.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240404%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240404T150635Z&X-Amz-Expires=300&X-Amz-Signature=b894485b1c8f08bafe38fe3794fb9dcb176a31374b927011c11375f2883a8312&X-Amz-SignedHeaders=host&actor_id=70357792&key_id=0&repo_id=655568618">
 
-## Learn More
+This is the EC website it sells party goods. Users can search items by name and by categories. There is a cart so the user can add items in there. Also, users can buy only one item too. Each item detail page shows related items depending on each item category.
 
-To learn more about Next.js, take a look at the following resources:
+## Upcoming(Future Improvements)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-# ec-website
+<ul>
+    <li>Login and Sign up</li>
+    <li>Post Reviews</li>
+    <li>Browsing History</li>
+</ul>
