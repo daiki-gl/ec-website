@@ -1,6 +1,6 @@
 # Party Palooza(Ecommerce Web Site)
 
-### Link: <a class="site-link" href="https://ec-website-vercel.vercel.app/">https://ec-website-vercel.vercel.app/</a>
+### Link: [https://ec-website-vercel.vercel.app/](https://ec-website-vercel.vercel.app/)
 
 ## Overview
 
