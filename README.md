@@ -1,8 +1,21 @@
 <div id="top"></div>
 
+<style>
+    .site-link {
+        font-size:16px;
+    }
+    .tech {
+        display: inline-flex; 
+        background-color: black; 
+        vertical-align: top; padding: 4px 8px; 
+        font-size: 12px; 
+        font-weight: bold;
+    }
+</style>
+
 # Party Palooza(Ecommerce Web Site)
 
-## Link: <a style="font-size:16px" href="https://ec-website-vercel.vercel.app/">https://ec-website-vercel.vercel.app/</a>
+### Link: <a class="site-link" href="https://ec-website-vercel.vercel.app/">https://ec-website-vercel.vercel.app/</a>
 
 ## Tech Stack
 
@@ -10,8 +23,8 @@
   <img src="https://img.shields.io/badge/-Next.js-000000.svg?logo=next.js&style=for-the-badge">
   <img src="https://img.shields.io/badge/-Typescript-000000.svg?logo=typescript&style=for-the-badge">
   <img src="https://img.shields.io/badge/-TailwindCSS-000000.svg?logo=tailwindcss&style=for-the-badge">
-  <span style="background-color: black; display: inline-flex; vertical-align: top; padding: 4px 8px; font-size: 12px; font-weight: bold;">Zustand</span>
-  <span style="background-color: black; display: inline-flex; vertical-align: top; padding: 4px 8px; font-size: 12px; font-weight: bold;">Stripe</span>
+  <span class="tech">Zustand</span>
+  <span class="tech">Stripe</span>
 </p>
 
 ## Overview
